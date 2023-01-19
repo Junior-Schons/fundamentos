@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 body{
-    background-color: rgb(21, 142, 142);
+    background-color: rgb(49, 79, 79);
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: center;
+    font-size: 1rem;
 }
 h1, h2, h3{
     font-weight: 200;

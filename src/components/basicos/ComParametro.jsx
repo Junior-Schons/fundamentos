@@ -5,7 +5,7 @@ export default function (props) {
      const notaInt = Math.ceil(props.nota)
     return (
         <div>
-            <h2>{ props.titulo }</h2>
+            <h2><strong>{ props.titulo }</strong></h2>
             <p>
                 <strong> { props.aluno } </strong> 
                  tem nota 
