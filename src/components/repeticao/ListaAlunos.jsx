@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import alunos from "../../data/alunos";
 
 export default (props) =>{
