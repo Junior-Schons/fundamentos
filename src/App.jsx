@@ -16,6 +16,7 @@ import Fragmento from "./components/basicos/Fragmento";
 import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card";
 import DiretaPai from './components/comunicacao/DiretaPai';
+import Contador from './components/contador/Contador';
 
 export default () => {
     return (
@@ -23,6 +24,9 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+                <Card titulo='#12 - Contador ' color='#abD498' >
+                    <Contador numeroInicial={10}></Contador>
+                </Card>
                 <Card titulo='#11 - Comp. control input' color='#784745' >
                     <Input></Input>
                 </Card>
